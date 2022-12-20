@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,200;8..30,300;8..30,400;8..30,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased ;
+
+}
+.onhead{
+    clip-path: polygon(0 0, 100% 0, 100% 100%,70% 90%,0 100%);
+}
+
+.head{
+    color: whitesmoke;
+}
+.left{
+    display: flex;
+}
+:root{
+    -primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+.other
+{
+   margin-top: 5px;
+    align-items: center;
+}
+header{
+    background-color: var(--dark);
+}
+.box{
+    display:flex;
+    align-items: center;
+    font-family: 'Piazzolla', serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left:240px;
+    font-family: 'Piazzolla', serif;
+
+
+}
+.navbar a{
+    color: white;
+    margin-right: 2rem;
+    font-family: 'Piazzolla', serif;
+    cursor: pointer;
+    /* justify-content: space-between ; */
+}
+.navbar a:hover{
+    color: black;
+   background-color: #F2F2F2;
+}
+.right{
+    margin-top: 5px;
+    margin-left:80px;
+    font-weight: 600;
+   font-size: 20px;
+   cursor: pointer;
+    font-family: 'Piazzolla', serif;
+}
+/* .myima{
+    height: 200px;
+    width: 20%;
+
+} */
+.btn{
+    height:30px;
+    width:70px;
+    transition: all .3s ease;
+}
+.btn:hover{
+    color:white;
+    background-color:green;
+}
+.my-section{
+    display: flex;
+    justify-content: center;
+}
+.right1{
+    justify-content: center;
+    margin-top: 300px;
+    align-items: center;
+}
+
+.name{
+    color: white;
+}
+.profess{
+    color: #3DCFD3;
+    margin-top: 20px;
+    align-items: center;
+}
+.para{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+.btn1{
+    margin-left: 130px;
+    margin-top: 30px;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:30px;
+    width:160px;
+    transition: all .3s ease;
+    font-weight: 600px;
+}
+.btn1:hover{
+    background-color: blue;
+    color: white;
+}
+.coloring
+{
+    color: red;
+}
+.myima{
+    margin-left: 190px;
+}
+.about{
+    display: flex;
+}
+.contentaboutme h1{
+    color: red;
+    border-radius: 2px black;
+    align-items: center;
+    margin-left: 120px;
+}
+.contentaboutme p{
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+.contentaboutme{
+    margin-top: 200px;
+    justify-content: center;
+    
+}
+.mysecondimg{
+    margin-left: 190px;
+}
+
+.about{
+    margin-top: 130px;
+}
+.socialnetwork{
+
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.mysecondimg{
+    height: 200px;
+  width: 50%;
+}
